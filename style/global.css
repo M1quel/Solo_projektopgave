@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* main code */
+main{
+    flex-grow: 1;
+    display: flex;
+}
+a{
+    color: black;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E2D7C7;
+}
+.wrapper{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-flow: column;
+}
+
+
+/* font sizes */
+.nav-text{
+    font-family: 'Coda', cursive;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* font sizes end______________________________________________ */
+
+
+/* Top bar */
+#top-bar{
+    flex-shrink: 0;
+    height: 74px;
+    display: flex;
+    width: 100%;
+    border-bottom: black 1px solid;
+}
+#top-bar article:last-of-type{
+    margin-left: auto;
+}
+
+/* Lines */
+#lines{
+    width: 74px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: black solid 1px;
+}
+#line1{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+#line2{
+    margin-top: 4px;
+    width: 17px;
+    height: 2px;
+    background-color: black;
+    display: block;
+}
+
+/* Lines end__________________________________________________________ */
+
+/* navigation */
+#navigation{
+    display: flex;
+    height: 100%;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px;
+}
+/* navigation end ____________________________________________________ */
+
+/* Search */
+#search{
+    height: 100%;
+}
+#search a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#search a img{
+    margin-right: 10px;
+}
+/* Search end _________________________________________________________ */
+/* Top bar end _________________________________________________________ */
+
+/* Left bar */
+
+#left-bar{
+    width: 74px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: black 1px solid;
+}
+
+/* language */
+#lang{
+    margin-top: 55px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.first{
+    font-weight: 800    ;
+}
+.sideways{
+    transform: rotateZ(270deg);
+}
+/* language end __________________________________________________________ */
+
+/* Social */
+
+#social{
+    height: 250px ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-icon{
+    font-size: 18px;
+}
+
+/* Social end______________________________________________________________ */
+
+/* Left bar end______________________________________________________________ */
+
+/* Copyright */
+.copy{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+}
+/* Copyright end_______________________________________________________________ */

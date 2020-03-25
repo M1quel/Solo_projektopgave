@@ -1,0 +1,42 @@
+/* main code */
+#main{
+    margin-top: 45px;
+    margin-left: 95px;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 50px;
+}
+.main img{
+    height: 100%;
+}
+#grid1{
+    height: 210px;
+    margin-bottom: 20px;
+}
+#grid2{
+    height: 260px;
+    margin-bottom: 20px;
+}
+#grid3{
+    height: 260px;
+}
+
+/* main code end__________________________________________________ */
+
+/* page indicator */
+
+.page-indicator{
+    position: absolute;
+    top: 75px;
+    right: 228px;
+}
+.page-indicator h2{
+    font-weight: 400;
+    font-family: 'Coda', cursive;
+    font-size: 64px;
+    color: white;
+}
+
+/* page indicator end_________________________________________________ */

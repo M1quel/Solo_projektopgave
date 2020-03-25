@@ -1,0 +1,219 @@
+/* Main grid */
+
+#main-grid{
+    margin-top: 50px;
+    margin-left: 55px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1fr 100px 1.3fr 1fr 1fr 1.1fr 1.1fr 1.1fr;
+    grid-template-rows: .7fr .55fr .45fr .3fr;
+    grid-gap: 30px 21px;
+    grid-template-areas:'portrait portrait portrait . . . . . big-right-img big-right-img'
+    'portrait portrait portrait graphic about about about second-row-img1 second-row-img2 second-row-img3'
+    'portrait portrait portrait graphic about about about third-row-img third-row-img third-row-img' 
+    'designer designer designer designer . bottom-img1 bottom-img2 bottom-img3 bottom-img4 bottom-img5';
+}
+
+.portrait img{
+    width: 100%;
+}
+.portrait{
+    height: 100%;
+    width: 100%;
+    grid-area: portrait;
+    overflow: hidden;
+}
+
+.big-right-img{
+    grid-area: big-right-img;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.big-right-img img{
+    width: 100%;
+}
+
+.second-row-img1{
+    grid-area: second-row-img1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.second-row-img1 img{
+    width: 100%;
+}
+
+.second-row-img2{
+    grid-area: second-row-img2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.second-row-img2 img{
+    width: 100%;
+}
+
+.second-row-img3{
+    grid-area: second-row-img3;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.second-row-img3 img{
+    width: 100%;
+}
+
+.third-row-img{
+    grid-area: third-row-img;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.third-row-img img{
+    max-height: 100%;
+}
+
+.bottom-img1{
+    grid-area: bottom-img1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.bottom-img1 img{
+    height: 100%;
+}
+
+.bottom-img2{
+    grid-area: bottom-img2;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.bottom-img2 img{
+    height: 100%;
+}
+.bottom-img3{
+    grid-area: bottom-img3;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.bottom-img3 img{
+    width: 100%;
+}
+.bottom-img4{
+    grid-area: bottom-img4;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.bottom-img4 img{
+    width: 100%;
+}
+.bottom-img5{
+    grid-area: bottom-img5;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.bottom-img5 img{
+    width: 100%;
+}
+
+.graphic{
+    grid-area: graphic;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.graphic h2{
+    transform: rotateZ(90deg);
+    margin-top: -100px;
+    margin-left: -40px;
+    font-size: 48px;
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    grid-area: about;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+.about h2{
+    font-family: 'Coda', cursive;
+    font-weight: 800;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+}
+.about-inner{
+    width: 80%;
+}
+
+.designer{
+    grid-area: designer;
+    width: 100%;
+    height: 100%;
+}
+.designer h2{
+    font-size: 48px;
+}
+.designer h3{
+    font-size: 34px;
+}
+.designer h2, h3{
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+}
+.inner-designer{
+    margin-top: -60px;
+    margin-left: 15vw;
+}
+/* Main grid end_______________________________________________________________ */
+
+/* Heading code */
+
+.heading{
+    position: absolute;
+    top: 120px;
+    left: 490px;
+}
+.heading h1{
+    font-size: 109px;
+    font-family: 'Coda', cursive;
+}
+.heading h1:last-of-type{
+    margin-left: 100px;
+    margin-top: -35px;
+}
+/* Heading end_________________________________________________________________ */
+
+/* Page indicator */
+
+.page-indicator{
+    position: absolute;
+    right: 300px;
+    top: 80px;
+}
+.page-indicator h2{
+    color: white;
+    font-size: 64px;
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+}
+
+/* page indicator end__________________________________________________________ */
+
+
+/* main code end___________________________________________________________ */

@@ -1,0 +1,143 @@
+/* left main code */
+
+.left-main{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* Heading code */
+.heading{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+.heading h1{
+    font-size: 109px;
+    font-family: 'Coda', cursive;
+}
+.heading h2{
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+    margin-left: 35px;
+    font-size: 48px;
+}
+/* Heading code end______________________________________________________________ */
+
+/* about code */
+
+.about{
+    margin-top: -10px;
+    width: 65%;
+    margin-bottom: 20px;
+}
+#about-heading{
+    font-size: 34px;
+    font-family: 'Coda', cursive;
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+}
+
+/* about code end_________________________________________________________________ */
+
+/* skill code */
+#skill{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#skill img{
+    height: 80px;
+    width: 80px;
+    margin-right: 55px;
+}
+.skill-wrapper{
+    display: flex;
+    height: 80px;
+}
+.skillbar-innerwrapper{
+    height: 40px;
+    width: 500px;
+    background-color: #8C885D;
+}
+.skill-amount{
+    height: 100%;
+    background-color: #B2AC6D;
+}
+.skill-name{
+    font-size: 20px;
+    font-family: 'Coda', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.illustrator{
+    width: 97%;
+}
+.photoshop{
+    width: 92%;
+}
+.paintings{
+    width: 89%;
+}
+.photo{
+    width: 50%;
+}
+.people{
+    width: 89%;
+}
+/* skill code end________________________________________________________________ */
+/* left main code end______________________________________________________________ */
+
+/* right main code */
+
+.right-main{
+    flex: 1;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-main img{
+    width: 355px;
+    height: 438px;
+}
+.right-main-text-inner{
+    transform: rotateZ(270deg);
+    margin-top: 140px;
+    margin-right: -40px;
+}
+.right-main-text-inner h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.right-main-text-inner h3{
+    font-size: 34px;
+    font-weight: 400;
+}
+.right-main-text-inner h2, h3{
+    font-family: 'Coda', cursive;
+}
+
+/* right main code end______________________________________________________________ */
+
+/* absolute text */
+
+.page-indicator{
+    position: absolute;
+    right: 327px;
+    top: 80px;
+}
+.page-indicator h2{
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Coda', cursive;
+}
+
+/* absolute text end_________________________________________________________________ */
